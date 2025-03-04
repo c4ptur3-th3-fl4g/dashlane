@@ -9,7 +9,7 @@
     <p class="text-lg text-gray-600 mt-4">Access your account securely and easily.</p>
 </div>
 
-<div class="w-1/4 flex flex-col justify-center px-10 py-6 relative">
+<div class="w-1/4 flex flex-col justify-center px-10 py-6 relative bg-gray-50">
     <div class="flex justify-end items-center space-x-2 absolute top-6 right-6">
         <p class="text-sm text-gray-600">Don't have an account?</p>
         <a href="{{route('showRegister')}}" class="bg-teal-600 text-white px-4 py-2 rounded-lg hover:bg-teal-700 transition">Register</a>
@@ -51,6 +51,7 @@
         </div>
     </div>
 </div>
+<<<<<<< HEAD
 
 <script>
 document.addEventListener('DOMContentLoaded', function() {
@@ -78,3 +79,7 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 </script>
 @endsection
+=======
+<script src="{{asset('js/Login.js')}}"></script>
+@endsection
+>>>>>>> 4d7dfd2095b51c0f9d33920ebe2aeb12f38812bc
