@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     @vite('resources/css/app.css')
 </head>
+<<<<<<< HEAD
 <body class="bg-gray-100">
 
 <div class="flex h-screen">
@@ -62,6 +63,10 @@
             </form>
         </div>
 
+=======
+<body>
+    <div class="h-screen flex bg-gray-100">
+>>>>>>> 4d7dfd2095b51c0f9d33920ebe2aeb12f38812bc
         @yield('content')
     </main>
 </div>
