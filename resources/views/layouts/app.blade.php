@@ -54,11 +54,12 @@
     <main class="flex-1 p-6">
         <div class="flex justify-between items-center mb-6">
             <h1 class="text-2xl font-bold">@yield('title', 'Dashboard')</h1>
-            <a href="{{ route('logout') }}">
-                <button class="bg-teal-500 text-white px-4 py-2 rounded hover:bg-teal-600">
+            <form action="{{ route('logout') }}" method="POST" class="inline">
+                @csrf
+                <button type="submit" class="bg-teal-500 text-white px-4 py-2 rounded hover:bg-teal-600">
                     <i class="fa-solid fa-sign-out"></i> Logout
                 </button>
-            </a>
+            </form>
         </div>
 
         @yield('content')

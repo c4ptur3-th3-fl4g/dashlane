@@ -1,4 +1,6 @@
-@extends('layouts.app')
+@extends('layouts.auth')
+
+@section('title', 'Sign in to Dashlane')
 
 @section('content')
 <div class="w-3/4 bg-gray-100 flex flex-col justify-center px-16 relative">
