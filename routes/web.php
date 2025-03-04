@@ -34,7 +34,7 @@ Route::get('/reset-password/{token}', [AuthController::class, 'showResetPassword
 Route::post('/reset-password', [AuthController::class, 'resetPassword'])->name('resetPassword');
 
 
-<<<<<<< HEAD
+
 Route::middleware(['auth'])->group(function () {
     Route::get('/credentials', [CredentialsController::class, 'showCredentials'])->name('showCredentials');
     Route::get('/passkeys', [CredentialsController::class, 'showPasskey'])->name('showPasskeys');
@@ -47,7 +47,7 @@ Route::middleware(['auth'])->group(function () {
     Route::get('/darkweb-monitoring', [CredentialsController::class, 'showDarkwebMonitoring'])->name('showDarkwebMonitoring');
     Route::get('/vpn', [CredentialsController::class, 'showVPN'])->name('showVPN');
 });
-=======
+
 Route::get('/credentials', [CredentialsController::class, 'showCredentials'])->name('showCredentials')->middleware(AuthMiddleware::class);
 Route::get('/passkeys', [PasskeysController::class, 'showPasskeys'])->name('showPasskeys')->middleware(AuthMiddleware::class);
 Route::get('/payments', [PaymentsController::class, 'showPayments'])->name('showPayments')->middleware(AuthMiddleware::class);
@@ -58,4 +58,4 @@ Route::get('/passwordhealth', [PasswordHealthController::class, 'showPasswordHea
 Route::get('/ids', [IDsController::class, 'showIDs'])->name('showIDs')->middleware(AuthMiddleware::class);
 Route::get('/personalinfo', [PersonalInfoController::class, 'showPersonalInfo'])->name('showPersonalInfo')->middleware(AuthMiddleware::class);
 Route::get('/sharingcenter', [SharingCenterController::class, 'showSharingCenter'])->name('showSharingCenter')->middleware(AuthMiddleware::class);
->>>>>>> 4d7dfd2095b51c0f9d33920ebe2aeb12f38812bc
+

@@ -12,12 +12,8 @@
     </div>
 </div>
 
-<<<<<<< HEAD
 <div class="w-1/4 flex flex-col justify-center px-10 relative bg-white">
 
-=======
-<div class="w-1/4 flex flex-col justify-center px-10 relative bg-gray-50">
->>>>>>> 4d7dfd2095b51c0f9d33920ebe2aeb12f38812bc
     <div class="flex justify-end items-center space-x-2 absolute top-6 right-6">
         <p class="text-sm text-gray-600">Already have an account?</p>
         <a href="{{route('login')}}" class="bg-teal-600 text-white px-4 py-2 rounded-lg hover:bg-teal-700 transition">Login</a>

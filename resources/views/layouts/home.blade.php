@@ -1,4 +1,4 @@
-@extends('layouts.app')
+<!-- @extends('layouts.app')
 
 @section('content')
 
@@ -6,4 +6,4 @@
 
 @include('components.Headerbar')
 
-@endsection
+@endsection -->

@@ -7,7 +7,6 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     @vite('resources/css/app.css')
 </head>
-<<<<<<< HEAD
 <body class="bg-gray-100">
 
 <div class="flex h-screen">
@@ -30,7 +29,7 @@
             <a href="{{ route('showPersonalInfo') }}" class="flex items-center gap-2 py-2 px-3 rounded {{ request()->routeIs('showPersonalInfo') ? 'bg-teal-500 text-white' : 'hover:bg-gray-200' }}">
                 <i class="fa-solid fa-user"></i> Personal Info
             </a>
-            <a href="{{ route('showIds') }}" class="flex items-center gap-2 py-2 px-3 rounded {{ request()->routeIs('showIds') ? 'bg-teal-500 text-white' : 'hover:bg-gray-200' }}">
+            <a href="{{ route('showIDs') }}" class="flex items-center gap-2 py-2 px-3 rounded {{ request()->routeIs('showIds') ? 'bg-teal-500 text-white' : 'hover:bg-gray-200' }}">
                 <i class="fa-solid fa-id-card"></i> IDs
             </a>
             <a href="{{ route('showSharingCenter') }}" class="flex items-center gap-2 py-2 px-3 rounded {{ request()->routeIs('showSharingCenter') ? 'bg-teal-500 text-white' : 'hover:bg-gray-200' }}">
@@ -63,10 +62,6 @@
             </form>
         </div>
 
-=======
-<body>
-    <div class="h-screen flex bg-gray-100">
->>>>>>> 4d7dfd2095b51c0f9d33920ebe2aeb12f38812bc
         @yield('content')
     </main>
 </div>

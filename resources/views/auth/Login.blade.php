@@ -51,7 +51,6 @@
         </div>
     </div>
 </div>
-<<<<<<< HEAD
 
 <script>
 document.addEventListener('DOMContentLoaded', function() {
@@ -79,7 +78,5 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 </script>
 @endsection
-=======
-<script src="{{asset('js/Login.js')}}"></script>
-@endsection
->>>>>>> 4d7dfd2095b51c0f9d33920ebe2aeb12f38812bc
+
+
